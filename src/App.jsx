@@ -580,10 +580,10 @@ const TABS = [
   { key: "site", label: "פיקוח" },
   { key: "budget", label: "תקציב" },
   { key: "schedule", label: "לוח זמנים" },
-  { key: "procurement", label: "רכש" },
-  { key: "report", label: "דוחות" },
-];
-
+{ key: "procurement", label: "רכש" },
+{ key: "crm", label: "CRM" },
+{ key: "report", label: "דוחות" },
+ ]; 
 export default function SegevBoq() {
   const [index, setIndex] = useState([]);
   const [project, setProject] = useState(null);
